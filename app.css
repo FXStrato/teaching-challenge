@@ -1,0 +1,12 @@
+/*Very basic css*/
+header {
+  margin-bottom: 20px;
+}
+
+/*Hides paragraph on initial page load. Can customize duration, delay, and how many times to animate*/
+#vanish-paragraph {
+  display: none;
+  -webkit-animation-duration: 3s;
+  /*-webkit-animation-delay: 2s;
+  -webkit-animation-iteration-count: infinite;*/
+}

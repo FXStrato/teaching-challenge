@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="app.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+
+    <title>Animate.CSS Examples</title>
+  </head>
+  <body>
+    <header class="center-align animated zoomIn">
+      <h1>Animate.css Examples</h1>
+      <a id="reload-button" class="waves-effect waves-light btn red">Reload Page</a>
+    </header>
+    <main>
+      <div class="container">
+        <!-- This row shows off some static animations, as well as how to begin transitions with a click -->
+        <div class="row center-align">
+          <div class="col s3"><a id="bounce-button" class="waves-effect waves-light btn">Bounce Me</a></div>
+          <div class="col s3"><a id="swing-button" class="waves-effect waves-light btn animated swing">I Swing</a></div>
+          <div class="col s3"><a id="wobble-button" class="waves-effect waves-light btn animated wobble">I Wobble</a></div>
+          <div class="col s3"><a id="pulse-button" class="waves-effect waves-light btn animated pulse">I Pulse</a></div>
+        </div>
+        <br><br>
+        <!-- This row shows off chaining of transitions; once one transition finishes, another begins -->
+        <div class="row center-align">
+          <div class="col s3"><a id="transition-button" class="waves-effect waves-light btn orange">Transition This</a></div>
+          <div id="vanish-paragraph" class="col s9"><p class="flow-text"> I appear when the button is gone!</p></div>
+        </div>
+      </div>
+    </main>
+  <!-- Compiled and minified JavaScript -->
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  <script src="app.js"></script>
+  </body>
+</html>
